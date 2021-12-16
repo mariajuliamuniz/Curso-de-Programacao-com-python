@@ -1,0 +1,8 @@
+print("Olá! Aqui você pode realizar soma de três números inteiros.")
+print("A seguir, digite os números que deseja somar")
+numero1 = input("Número 1:")
+numero2 = input("Número 2:")
+numero3 = input("Número 3:")
+soma = int(numero1)+int(numero2)+int(numero3)
+print("Os três números digitados foram:", numero1, ", ", numero2, ", ", numero3)
+print("A soma dos três números é:", soma)
